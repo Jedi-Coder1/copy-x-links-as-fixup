@@ -1,0 +1,16 @@
+{
+   "action": {
+      "default_icon": "assets/icon.png",
+      "default_title": "Copy X Links As Fixup"
+   },
+   "content_scripts": [{
+      "matches": ["*://*.twitter.com/*"],
+      "js": ["copyScript.js"]
+  }],
+   "author": "Jedi-Coder1",
+   "description": "copy x.com links as fixupx.com links for discord embeds",
+   "manifest_version": 3,
+   "name": "Copy X Links As Fixup",
+   "permissions": [],
+   "version": "1.0"
+}
